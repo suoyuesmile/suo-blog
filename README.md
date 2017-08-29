@@ -87,7 +87,7 @@
 | [UNIX TOOLBOX](http://cb.vu/unixtoolbox_zh_CN.xhtml)    | [廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)                                                                   |
 | [---------------------------------------------------]()     | [-----------------------------------------------------]()   |
 
-## Sublime & Vim & atom & 
+## Sublime & Vim 
 | Reference | Reference |
 |-----------|-----------|
 | [Sublime使用技巧之快捷键](http://www.jb51.net/softjc/180873.html)          |  [exvim--vim 改良成IDE项目](http://exvim.github.io/docs-zh/intro/)         |
@@ -103,10 +103,17 @@
 |[Markdown-editor](https://github.com/jbt/markdown-editor)||
 | [---------------------------------------------------]()     | [-----------------------------------------------------]()   |
 
+## Weapp
+| Reference | Reference |
+|-----------|-----------|
+| [微信小程序简易教程](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html?t=2017621)          | [微信小程序官方组件库](https://mp.weixin.qq.com/debug/wxadoc/dev/component/text.html)          |
+| [微信小程序入门教程(视频)](http://pan.baidu.com/s/1c1OdUQc)          | [有赞小程序ui组件](https://github.com/youzan/zanui-weapp)          | 
+| [---------------------------------------------------]()     | [-----------------------------------------------------]()   |
+
 ## NodeJS & AngularJS
 | Reference | Reference |
 |-----------|-----------|
-| [Node.js 看了就懂系列](https://github.com/alsotang/node-lessons)          |  [[AngularJS最佳实践和风格指南](https://github.com/mgechev/angularjs-style-guide/blob/master/README-zh-cn.md)       |
+| [Node.js 看了就懂系列](https://github.com/alsotang/node-lessons)          |  [AngularJS最佳实践和风格指南](https://github.com/mgechev/angularjs-style-guide/blob/master/README-zh-cn.md)       |
 | [你信不信5天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/)          |  [AngularJS中译本](https://github.com/peiransun/angularjs-cn)         |
 | [从零开始的nodejs世界生活](http://blog.fens.me/series-nodejs)          |  [AngularJS入门教程](https://github.com/zensh/AngularjsTutorial_cn)         |
 | [赶紧的Node.js入门系列](http://www.nodebeginner.org/index-zh-cn.html)         |  [构建自己的AngularJS](https://github.com/xufei/Make-Your-Own-AngularJS/blob/master/01.md)         |
