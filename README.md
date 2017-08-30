@@ -43,9 +43,9 @@
 ## JavaScript & jQuery 
 |                                                   Reference                                                    | Reference |
 |----------------------------------------------------------------------------------------------------------------|-----------|
-| [廖雪峰Javascript全栈教程](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000) |  [jQuery 解构](http://www.cn-cuckoo.com/deconstructed/jquery.html)         |
-| [阮一峰 Javascript基础教程](http://javascript.ruanyifeng.com)                                                  | [简单易懂的JQuery魔法](http://www.nowamagic.net/librarys/books/contents/jquery)         |
-| [Javascript中的this陷阱的最全收集](https://segmentfault.com/a/1190000002640298)                                |  [How to write jQuery plugin](http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html)|
+| [廖雪峰JavaScript全栈教程](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000) |  [jQuery 解构](http://www.cn-cuckoo.com/deconstructed/jquery.html)         |
+| [阮一峰 JavaScript基础教程](http://javascript.ruanyifeng.com)                                                  | [简单易懂的JQuery魔法](http://www.nowamagic.net/librarys/books/contents/jquery)         |
+| [JavaScript中的this陷阱的最全收集](https://segmentfault.com/a/1190000002640298)                                |  [How to write jQuery plugin](http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html)|
 | [Promise迷你书（中文版](http://liubin.github.io/promises-book)                                   | [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.zh-CN.md)          |
 | [前端框架最新排名 TOP 100](https://www.awesomes.cn/rank)                                                       | [如何实现一个类jQuery？](https://github.com/MeCKodo/forchange)          |
 | [---------------------------------------------------]()     | [-----------------------------------------------------]()   |
@@ -134,7 +134,7 @@
 
 
 
-## Fronter Man
+## Front-end Manu
 | Reference | Reference |
 | --------- | --------- |
 |[前端知识汇总](https://github.com/JacksonTian/fks)|[前端开发大系概览图](https://github.com/unruledboy/WebFrontEndStack)|
@@ -146,7 +146,7 @@
 |[前端学习计划](http://blog.csdn.net/qq_25827845/article/details/53079094)| [前端知识体系图](img/qian.jpg)|
 | [---------------------------------------------------]()     | [-----------------------------------------------------]()   |
 
-## Fronter Regular
+## Front-end Regular
 | Reference | Reference |
 | --------- | --------- |
 |[github工程师代码书写习惯](http://alloyteam.github.io/CodeGuide/)|[HTML&CSS编码规范 by @mdo](http://codeguide.bootcss.com)|
