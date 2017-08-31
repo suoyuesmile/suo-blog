@@ -41,8 +41,13 @@
 | [---------------------------------------------------]()     | [-----------------------------------------------------]()   |
 
 ## JavaScript & jQuery 
-|                                                   Reference                                                    | Reference |
-|----------------------------------------------------------------------------------------------------------------|-----------|
+
+| Article | Article |
+|-----------|-----------|
+|[JavaScript模块化编程](https://github.com/suoyuesmile/full-stack-developer/issues/8)|[JavaScript异步编程 ](https://github.com/suoyuesmile/full-stack-developer/issues/9)|
+|[JavaScript的this用法](https://github.com/suoyuesmile/full-stack-developer/issues/6)|[JavaScript定义类的方法](https://github.com/suoyuesmile/full-stack-developer/issues/7)|
+|[JavaScript面向对象编程](https://github.com/suoyuesmile/full-stack-developer/issues/4)|[JavaScript闭包原理与分析](https://github.com/suoyuesmile/full-stack-developer/issues/5)|
+| Reference | Reference |
 | [廖雪峰JavaScript全栈教程](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000) |  [jQuery 解构](http://www.cn-cuckoo.com/deconstructed/jquery.html)         |
 | [阮一峰 JavaScript基础教程](http://javascript.ruanyifeng.com)                                                  | [简单易懂的JQuery魔法](http://www.nowamagic.net/librarys/books/contents/jquery)         |
 | [JavaScript中的this陷阱的最全收集](https://segmentfault.com/a/1190000002640298)                                |  [How to write jQuery plugin](http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html)|
