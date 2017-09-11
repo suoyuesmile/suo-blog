@@ -15,7 +15,6 @@ function fk(){
 }
 fk();
 alert(n); //999
-
 //2. 从外部读取局部变量
 function fa(){
 	var n=999;

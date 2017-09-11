@@ -44,6 +44,9 @@
 
 | Article | Article |
 |-----------|-----------|
+|[JavaScript继承设计机制](https://github.com/suoyuesmile/full-stack-developer/issues/14)|[JavaScript同源策略与规避](https://github.com/suoyuesmile/full-stack-developer/issues/15)|
+|[jQuery设计思想](https://github.com/suoyuesmile/full-stack-developer/issues/12)|[jQuery最佳实践](https://github.com/suoyuesmile/full-stack-developer/issues/13)|
+|[JavaScript严格模式](https://github.com/suoyuesmile/full-stack-developer/issues/10)|[JavaScript快速排序](https://github.com/suoyuesmile/full-stack-developer/issues/11)|
 |[JavaScript模块化编程](https://github.com/suoyuesmile/full-stack-developer/issues/8)|[JavaScript异步编程 ](https://github.com/suoyuesmile/full-stack-developer/issues/9)|
 |[JavaScript的this用法](https://github.com/suoyuesmile/full-stack-developer/issues/6)|[JavaScript定义类的方法](https://github.com/suoyuesmile/full-stack-developer/issues/7)|
 |[JavaScript面向对象编程](https://github.com/suoyuesmile/full-stack-developer/issues/4)|[JavaScript闭包原理与分析](https://github.com/suoyuesmile/full-stack-developer/issues/5)|
