@@ -1,0 +1,8 @@
+*.js linguist-language=JavaScript
+*.css linguist-language=JavaScript
+*.html linguist-language=JavaScript
+*.c linguist-language=JavaScript
+*.c++ linguist-language=JavaScript
+*.php linguist-language=JavaScript
+*.python linguist-language=JavaScript
+*.scss linguist-language=JavaScript
