@@ -13,7 +13,7 @@
 | 0003 | [3个小时能把 React 学到哪种程度？](articals/react/0001.md)                               | 完成 |
 | 0004 | [如何让 Promise 控制业务流程（Re 同步异步 开始一步一步深入）](articals/js/0001.md)       | 完成 |
 | 0005 | [理解promise、 generator 、async & await 之间的联系](articals/js/0002.md)       | 完成 |
-| 0006 | [透移动端 1px](articals/h5/0001.md)                                                      | 计划 |
+| 0006 | [吃透移动端 1px](articals/h5/0001.md)                                                      | 完成 |
 | 0007 | [iOS上 H5 兼容相关](articals/h5/0002.md)                                                 | 计划 |
 | 0008 | [移动端 H5 常用存储策略及其优缺点](articals/h5/0003.md)                                  | 计划 |
 | 0009 | [移动端 H5 实践踩坑集锦（vue）](articals/h5/0004.md)                                     | 计划 |
