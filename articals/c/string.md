@@ -1,7 +1,7 @@
 # 字符串
 ### 表示字符串和字符串IO
     
-```
+```c
 #define MSG = "hello world!";
 char a[MAX] = "hello world!";
 char * p = "hello world!";
@@ -12,17 +12,17 @@ puts(p);
 ### 定义字符串
 - 字符串字面量：双引号括起来的内容，编译器会自动加入\n，双引号之间紧邻或者空格看作相连的
 
-```
+```c
 char * a = "hello " "world!";  //  hello world!
 ```
 函数中使用字符串，只存储一次，被视为指向该字符串位置的指针
 
-```
+```c
 printf("%s, %p, %c\n", "hello", "world", *"ok"); // hello,0X000000999,o
 ```
 - 字符串数组：和字符数组区别，两种初始化方式
 
-```
+```c
 char a[40] = "sadasfsdfgsdgfdgfdhfdh";    //简易初始化
 char a[40] = {'a','b','c'...'g', '\n'}    //标准初始化
 char a[] = "dsfsdfsdfdsfsdfsdf";          //编译器自动计算长度
@@ -30,13 +30,13 @@ const char * a = "sdsafsdfsdfsdfsfdf";          //同上
 //定长初始化中未被初始化的部分填充'\0'
 ```
 - 数组形式与指针形式区别
-- - 数组形式的a == &a[0] 只能作为常量，不能进行a ++等操作，指针形式a 是可以进行a ++的
+- - 数组形式的a == &a[0] 只能作为常量，不能进行a++等操作，指针形式a 是可以进行a ++的
 - - 指针对数据类型匹配很高，指向常量的指针需要被声明为常量const char * p = "abc";
 - - 意味着不能用p改变数据的值，但可以改变p的位置
 - - 初始化数组把静态存储区的字符串拷贝给数组，初始化指针只是把字符串的地址给指针
 - 字符串与数组
 
-```
+```c
 //相当于字符的二维数组
 char f[3][4] = {{"ab"},{"cd"},{"e"}};  // ab\0, cd\0, e\0\0
 //相当于3个字符串指针
@@ -47,13 +47,13 @@ const char * p[3] = {{"ab"},{"cd"},{"e"}}; // ab\0, cd\0, e\0 自动获取大小
 ### 字符串输入
 - 分配空间：用显示声明来输入，否则会丢失数据
 
-```
+```c
 char *name; scanf("%s", name);   //不好
 char name[SIZE]; scanf("%s", name); //可以的
 ```
 - gets()函数：已废弃，并不知道字符串有多长，输入字符过长导致缓冲区溢出，可能导致其他数据被擦除
 
-```
+```c
 #include <stdio.h>
 int main(void){
 	char name[10];
@@ -69,7 +69,7 @@ int main(void){
 
 - fgets()函数：可以替代gets(),可扩展，可以从文件输入，保留换行符，需要手动设置为空字符
 - - 读一行：读到换行或者读到n个字符，最终打印的n-1个字符
-```
+```c
 #include <stdio.h>
 int main(void){
 	char a[10];
@@ -81,7 +81,7 @@ int main(void){
 //dsfdsf 
 ```
 - - 连续读取，fgets可以存储换行符，读完一段，继续读剩下的，可以直接读到文件尾部
-```
+```c
 #include <stdio.h>
 #define N 10
 int main(void){
@@ -94,7 +94,7 @@ int main(void){
 ```
 - - 每行只读一定数量的字符，并丢弃了换行符
 
-```
+```c
 #include <stdio.h>
 #define N 10
 int main(){
@@ -145,7 +145,7 @@ void  sprintf | char *, 格式化, name | 将printf的内容存储在一个字�
 ### 字符串排序
 - 示例
 
-```
+```c
 #include <stdio.h>
 #include <string.h>
 #define SIZE 81  //字符串长度
@@ -203,7 +203,7 @@ char * strGets(char * str, int n){
 - 排序单位是指针：排序的是指针而不是字符串本身
 - 选择排序算法
 
-```
+```c
 //伪代码
 for n = 首元素 to n=倒数第2个元素
     找出剩余元素中的最大元素，并将其放在第n个元素
@@ -215,14 +215,9 @@ for(top = 0; top < n - 1; top++)
 ```
 
 
-### 字符串和ctype.h字符函数
-
-```
-
-```
 ### 命令行参数：int argc, char *argv[] 
 
-```
+```c
 int main(int argc, char *argv[])
 {
     argc // 命令行字符串数量
@@ -230,7 +225,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-```
+```c
 #include <stdio.h>
 int main(int argc, char * argv[]){
 	int i = argc;
@@ -250,12 +245,9 @@ int main(int argc, char * argv[]){
 
 ### 字符串转数字
 
-```
-
-```
 - 小训练：逆转字符串
 
-```
+```c
 void reStr(char * a, int n){
 	int i = 0;
 	char b[n];
@@ -270,7 +262,7 @@ void reStr(char * a, int n){
 ```
 - 小训练：命令行输出
 
-```
+```c
 #include <stdio.h>
 #include <ctype.h>
 #define N 10
