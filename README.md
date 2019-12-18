@@ -1,6 +1,13 @@
  :rocket: _It's my records of the journey from phper to fronter, now sharing to you and hoping that these make sence for you. if you like it, please star it! Thank You!_ 
 
  本博客将持续更新，喜欢请收藏STAR一下，更多内容在[suosmile](https://github.com/suoyuesmile)关注一下，谢谢~:yum:
+<p align="center">
+  <a href="https://juejin.im/user/59a3e1de51882524401237cf/posts"><img src="https://img.shields.io/badge/小锁君少-掘金-blue.svg" alt="微信群"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-前端攻城狗-green.svg" alt="公众号"></a>
+</p>
+文章将优先发布于掘金平台，点击关注掘金账号哦。如果需要接受通知请关注微信公众号@前端攻城狗！
+
+
 
 ## 前端技术实战、研究总结
 
@@ -18,6 +25,8 @@
 | 0008 | [iOS上 H5 兼容相关](articals/h5/0003.md)                                                 | 计划 |
 | 0009 | [移动端 H5 常用存储策略及其优缺点](articals/h5/0003.md)                                  | 计划 |
 | 0010 | [移动端 H5 实践踩坑集锦（vue）](articals/h5/0004.md)                                     | 计划 |
+
+
 
 ### 每日一个编程小题
 | 编号 | 名称                                  | 状态 |
