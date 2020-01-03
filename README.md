@@ -19,36 +19,37 @@
 | 0002 | [关于这些天杭州各厂面试汇总（从JavaScript各种原理到框架源码](articals/interview/0001.md) | 完成 |
 | 0003 | [3个小时能把 React 学到哪种程度？](articals/react/0001.md)                               | 完成 |
 | 0004 | [如何让 Promise 控制业务流程（Re 同步异步 开始一步一步深入）](articals/js/0001.md)       | 完成 |
-| 0005 | [理解promise、 generator 、async & await 之间的联系](articals/js/0002.md)       | 完成 |
-| 0006 | [吃透移动端 1px](articals/h5/0001.md)                                                      | 完成 |
-| 0007 | [吃透移动端 H5 响应式布局](articals/h5/0002.md)                                                      | 完成 |
-| 0008 | [吃透移动端 H5 与 hybrid](articals/h5/0003.md)                                                 | 完成 |
-| 0009 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《上》](articals/vue/0002.md)                                  | 完成 |
-| 0010 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《下》](articals/vue/0003.md)                                     | 计划 |
+| 0005 | [理解promise、 generator 、async & await 之间的联系](articals/js/0002.md)                | 完成 |
+| 0006 | [吃透移动端 1px](articals/h5/0001.md)                                                    | 完成 |
+| 0007 | [吃透移动端 H5 响应式布局](articals/h5/0002.md)                                          | 完成 |
+| 0008 | [吃透移动端 H5 与 hybrid](articals/h5/0003.md)                                           | 完成 |
+| 0009 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《上》](articals/vue/0002.md)      | 完成 |
+| 0010 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《下》](articals/vue/0003.md)      | 计划 |
 
 
 
 ### 每日一个编程小题
-| 编号 | 名称                                  | 状态 |
-| ---- | ------------------------------------- | ---- |
-| 0001 | [两数相加](src/leetcode/twonums.js) | 完成 |
-| 0002 | [两数相加](src/leetcode/twonums.js) | 计划 |
+| 编号 | 名称                                          | 状态 | 难度 |
+| ---- | --------------------------------------------- | ---- | ---- |
+| 0001 | [1.两数相加](src/leetcode/two-nums.js)        | 完成 | 简单 |
+| 0002 | [7.整数反转](src/leetcode/reverse-integer.js) | 完成 | 简单 |
+| 0003 | [9.回文数]()                                    | 计划 | 简单 |
 
 ### 前端开放研究点
 #### JavaScript
-| 编号 | 名称                        | 状态 |
-| ---- | --------------------------- | ---- |
-| 0001 | [闭包](articals/js/0002.md) | 计划 |
-| 0002 | [this](articals/js/0002.md) | 计划 |
-| 0003 | [new](articals/js/0002.md) | 计划 |
-| 0004 | [深浅拷贝](articals/js/0002.md) | 计划 |
-| 0005 | [promise](articals/js/0002.md) | 计划 |
+| 编号 | 名称                                | 状态 |
+| ---- | ----------------------------------- | ---- |
+| 0001 | [闭包](articals/js/0002.md)         | 计划 |
+| 0002 | [this](articals/js/0002.md)         | 计划 |
+| 0003 | [new](articals/js/0002.md)          | 计划 |
+| 0004 | [深浅拷贝](articals/js/0002.md)     | 计划 |
+| 0005 | [promise](articals/js/0002.md)      | 计划 |
 | 0006 | [async、await](articals/js/0002.md) | 计划 |
 | 0007 | [原型与原型链](articals/js/0002.md) | 计划 |
-| 0008 | [继承](articals/js/0002.md) | 计划 |
-| 0009 | [防抖与节流](articals/js/0002.md) | 计划 |
-| 0010 | [类型判断](articals/js/0002.md) | 计划 |
-| 0011 | [运行机制](articals/js/0002.md) | 计划 |
+| 0008 | [继承](articals/js/0002.md)         | 计划 |
+| 0009 | [防抖与节流](articals/js/0002.md)   | 计划 |
+| 0010 | [类型判断](articals/js/0002.md)     | 计划 |
+| 0011 | [运行机制](articals/js/0002.md)     | 计划 |
 
 #### CSS
 
