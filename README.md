@@ -22,21 +22,39 @@
 | 0005 | [理解promise、 generator 、async & await 之间的联系](articals/js/0002.md)       | 完成 |
 | 0006 | [吃透移动端 1px](articals/h5/0001.md)                                                      | 完成 |
 | 0007 | [吃透移动端 H5 响应式布局](articals/h5/0002.md)                                                      | 完成 |
-| 0008 | [iOS上 H5 兼容相关](articals/h5/0003.md)                                                 | 计划 |
-| 0009 | [移动端 H5 常用存储策略及其优缺点](articals/h5/0003.md)                                  | 计划 |
-| 0010 | [移动端 H5 实践踩坑集锦（vue）](articals/h5/0004.md)                                     | 计划 |
+| 0008 | [吃透移动端 H5 与 hybrid](articals/h5/0003.md)                                                 | 完成 |
+| 0009 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《上》](articals/vue/0002.md)                                  | 完成 |
+| 0010 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《下》](articals/vue/0003.md)                                     | 计划 |
 
 
 
 ### 每日一个编程小题
 | 编号 | 名称                                  | 状态 |
 | ---- | ------------------------------------- | ---- |
-| 0001 | [两数相加](articals/leetcode/0001.md) | 计划 |
+| 0001 | [两数相加](src/leetcode/twonums.js) | 完成 |
+| 0002 | [两数相加](src/leetcode/twonums.js) | 计划 |
 
 ### 前端开放研究点
+#### JavaScript
 | 编号 | 名称                        | 状态 |
 | ---- | --------------------------- | ---- |
 | 0001 | [闭包](articals/js/0002.md) | 计划 |
+| 0002 | [this](articals/js/0002.md) | 计划 |
+| 0003 | [new](articals/js/0002.md) | 计划 |
+| 0004 | [深浅拷贝](articals/js/0002.md) | 计划 |
+| 0005 | [promise](articals/js/0002.md) | 计划 |
+| 0006 | [async、await](articals/js/0002.md) | 计划 |
+| 0007 | [原型与原型链](articals/js/0002.md) | 计划 |
+| 0008 | [继承](articals/js/0002.md) | 计划 |
+| 0009 | [防抖与节流](articals/js/0002.md) | 计划 |
+| 0010 | [类型判断](articals/js/0002.md) | 计划 |
+| 0011 | [运行机制](articals/js/0002.md) | 计划 |
+
+#### CSS
+
+#### HTML
+
+#### 浏览器
 
 ## 编程基础笔记
 

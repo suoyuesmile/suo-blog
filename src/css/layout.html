@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' media='screen'>
+    <style>
+        html a {
+            padding: 0;
+            margin: 0;
+        }
+        .layout article div {
+            min-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section class="layout float">
+        <style media="screen">
+            .layout.float.left {
+                float: left;
+                width: 300px;
+                background: red;
+            }
+            .layout.float.right {
+                float: right;
+                width: 300px;
+                background: blue;
+            }
+            .layout.float.center {
+                background: yellow;
+            }
+
+        </style>
+        <article class="left-center-right">
+            <div class="left"></div>
+            <div class="center"></div>
+            <div class="right"></div>
+        </article>
+    </section>
+
+</body>
+</html>

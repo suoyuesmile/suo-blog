@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    /* 三栏布局 */
+    .three-layout {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+    }
+    .three-layout .left {
+      background-color: #0a0;
+      height: 200px;
+      width: 100px;
+    }
+    .three-layout .middle {
+      background-color: #a00;
+      height: 200px;
+      flex: 1;
+    }
+    .three-layout .middle__item {
+      width: 300px;
+    }
+    .three-layout .right {
+      background-color: #00a;
+      height: 200px;
+      width: 100px;
+    }
+    /* 三栏布局-双飞燕 */
+    .three-layout-pro {
+      margin-top: 20px;
+      width: 100%;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+    }
+    .three-layout-pro .left {
+      background-color: #0a0;
+      height: 200px;
+      width: 100px;
+      order: -1;
+    }
+    .three-layout-pro .middle {
+      background-color: #a00;
+      height: 200px;
+      flex: 1;
+    }
+    .three-layout-pro .middle__item {
+      width: 300px;
+    }
+    .three-layout-pro .right {
+      background-color: #00a;
+      height: 200px;
+      width: 100px;
+    }
+    /* 两栏布局 */
+    .two-layout {
+      margin-top: 20px;
+      width: 100%;
+      height: 100px;
+      display: flex;
+    }
+    .two-layout .left {
+      background-color: #0a0;
+      height: 100px;
+      width: 100px;
+    }
+    .two-layout .right {
+      background-color: #a00;
+      height: 100px;
+      flex: 1;
+    }
+    
+    /* 垂直居中 */
+    .center-layout {
+      display: flex;
+      margin-top: 20px;
+      border: 1px solid #aaa;
+      width: 100%;
+      height: 200px;
+      align-items: center;
+      justify-content: center;
+    }
+    .center-layout .center-item {
+      width: 100px;
+      height: 100px;
+      background-color: #a00;
+    }
+  </style>
+</head>
+<body>
+  <div class="three-layout">
+    <div class="left"></div>
+    <div class="middle">
+      <div class="middle__item">
+      </div>
+    </div>
+    <div class="right"></div>
+  </div>
+
+  <div class="three-layout-pro">
+    <div class="middle">
+      <div class="middle__item">
+      </div>
+    </div>
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+
+  <div class="two-layout">
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+
+  <div class="center-layout">
+    <div class="center-item"></div>
+  </div>
+</body>
+</html>

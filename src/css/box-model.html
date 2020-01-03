@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>box-model</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .layout {
+        height: 200px;
+      }
+      .box {
+        height: 200px;
+      }
+      .left {
+        float: left;
+        width: 300px;
+        background: #eee;
+      }
+      .center {
+        float: left;
+        width: calc(100% - 300px - 300px);
+        background: #f00;
+      }
+      .right {
+        float: right;
+        width: 300px;
+        background: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="layout float-model">
+      <article class="box left">1</article>
+      <article class="box center">2</article>
+      <article class="box right">3</article>
+    </section>
+  </body>
+</html>
