@@ -1,7 +1,5 @@
-
 // var v = "hello world";
 // alert(v); //hello world
-
 
 // var v = 'hello world';
 // (function(){
@@ -27,9 +25,9 @@ v = 'think';
 // 	}
 // }
 // myTest(); //hello world
-function myTest(){
-	foo();
-	var foo = function foo(){
-		alert("hello world");
-	}
+function myTest() {
+  foo()
+  var foo = function foo() {
+    alert('hello world')
+  }
 }

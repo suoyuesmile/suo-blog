@@ -1,15 +1,10 @@
-var twoSumBase = function(nums, target) {
-  const len = nums.length
-  for (let i = 0; i < len; i++) {
-    for (let j = i + 1; j < len; j++) {
-      if (nums[i] + nums[j] === target) {
-        return [i, j]
-      }
-    }
-  }
-}
+/*
+ * @lc app=leetcode.cn id=1 lang=javascript
+ *
+ * [1] 两数之和
+ */
 
-// 使用map空间换时间
+// @lc code=start
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -30,7 +25,4 @@ var twoSum = function(nums, target) {
     }
   }
 }
-
-// 1 2
-// 1 3
-// 2 3
+// @lc code=end
