@@ -31,14 +31,14 @@
 ### 每日一个编程小题
 | 编号 | 名称                                                   | 状态 | 难度 |
 | ---- | ------------------------------------------------------ | ---- | ---- |
-| 0001 | [1.两数相加](src/leetcode/1.两数之和.js)               | 完成 | 简单 |
-| 0002 | [7.整数反转](src/leetcode/7.整数反转.js)               | 完成 | 简单 |
-| 0003 | [9.回文数](src/leetcode/9.回文数.js)                   | 完成 | 简单 |
-| 0004 | [13.罗马数字转整数](src/leetcode/13.罗马数字转整数.js) | 完成 | 简单 |
-| 0005 | [14.最长公共前缀](src/leetcode/14.最长公共前缀.js) | 完成 | 简单 |
-| 0006 | [20.有效的括号](src/leetcode/20.有效的括号.js) | 完成 | 简单 |
-| 0007 | [26.删除排序数组中的重复项](src/leetcode/26.删除排序数组中的重复项) | 完成 | 简单 |
-| 0008 | [27.移除元素](src/leetcode/27.移除元素) | 完成 | 简单 |
+| 0001 | [1.两数相加](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/1.两数之和.js)               | 完成 | 简单 |
+| 0002 | [7.整数反转](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/7.整数反转.js)               | 完成 | 简单 |
+| 0003 | [9.回文数](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/9.回文数.js)                   | 完成 | 简单 |
+| 0004 | [13.罗马数字转整数](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/13.罗马数字转整数.js) | 完成 | 简单 |
+| 0005 | [14.最长公共前缀](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/14.最长公共前缀.js) | 完成 | 简单 |
+| 0006 | [20.有效的括号](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/20.有效的括号.js) | 完成 | 简单 |
+| 0007 | [26.删除排序数组中的重复项](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/26.删除排序数组中的重复项) | 完成 | 简单 |
+| 0008 | [27.移除元素]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/)27.移除元素) | 完成 | 简单 |
 
 ### 前端开放研究点
 #### JavaScript
