@@ -39,6 +39,9 @@
 | 0006 | [20.有效的括号](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/20.有效的括号.js) | 完成 | 简单 |
 | 0007 | [26.删除排序数组中的重复项](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/26.删除排序数组中的重复项) | 完成 | 简单 |
 | 0008 | [27.移除元素]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/)27.移除元素) | 完成 | 简单 |
+| 0009 | [28.实现-str-str]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/)28.实现-str-str) | 完成 | 简单 |
+| 0010 | [28.实现-str-str]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/28.实现-str-str) | 完成 | 简单 |
+| 0009 | [35.搜索插入位置]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/35.搜索插入位置) | 完成 | 简单 |
 
 ### 前端开放研究点
 #### JavaScript

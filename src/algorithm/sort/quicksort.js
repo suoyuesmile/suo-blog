@@ -30,3 +30,6 @@ var quickSort = function(arr) {
 }
 
 console.log(quickSort(originArr))
+
+// 最差：O(n2)
+// 平均：O(nlgn)
