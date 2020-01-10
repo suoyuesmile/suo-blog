@@ -37,12 +37,12 @@
 | 0004 | [13.罗马数字转整数](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/13.罗马数字转整数.js) | 完成 | 简单 |
 | 0005 | [14.最长公共前缀](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/14.最长公共前缀.js) | 完成 | 简单 |
 | 0006 | [20.有效的括号](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/20.有效的括号.js) | 完成 | 简单 |
-| 0007 | [26.删除排序数组中的重复项](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/26.删除排序数组中的重复项) | 完成 | 简单 |
-| 0008 | [27.移除元素](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/27.移除元素) | 完成 | 简单 |
-| 0009 | [28.实现-str-str](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/28.实现-str-str) | 完成 | 简单 |
-| 0010 | [35.搜索插入位置](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/35.搜索插入位置) | 完成 | 简单 |
-| 0011 | [58.最后一个单词的长度](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/58.最后一个单词的长度) | 完成 | 简单 |
-| 0012 | [66.加一](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/66.加一) | 完成 | 简单 |
+| 0007 | [26.删除排序数组中的重复项](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/26.删除排序数组中的重复项.js) | 完成 | 简单 |
+| 0008 | [27.移除元素](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/27.移除元素.js) | 完成 | 简单 |
+| 0009 | [28.实现-str-str](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/28.实现-str-str.js) | 完成 | 简单 |
+| 0010 | [35.搜索插入位置](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/35.搜索插入位置.js) | 完成 | 简单 |
+| 0011 | [58.最后一个单词的长度](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/58.最后一个单词的长度.js) | 完成 | 简单 |
+| 0012 | [66.加一](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/66.加一.js) | 完成 | 简单 |
 
 ### 前端开放研究点
 #### JavaScript
