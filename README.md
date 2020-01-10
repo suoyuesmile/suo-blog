@@ -40,7 +40,6 @@
 | 0007 | [26.删除排序数组中的重复项](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/26.删除排序数组中的重复项) | 完成 | 简单 |
 | 0008 | [27.移除元素](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/27.移除元素) | 完成 | 简单 |
 | 0009 | [28.实现-str-str](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/28.实现-str-str) | 完成 | 简单 |
-
 | 0010 | [35.搜索插入位置](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/35.搜索插入位置) | 完成 | 简单 |
 | 0011 | [58.最后一个单词的长度](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/58.最后一个单词的长度) | 完成 | 简单 |
 | 0012 | [66.加一](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/66.加一) | 完成 | 简单 |
