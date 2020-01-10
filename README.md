@@ -42,6 +42,8 @@
 | 0009 | [28.实现-str-str]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/)28.实现-str-str) | 完成 | 简单 |
 | 0010 | [28.实现-str-str]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/28.实现-str-str) | 完成 | 简单 |
 | 0009 | [35.搜索插入位置]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/35.搜索插入位置) | 完成 | 简单 |
+| 0010 | [58.最后一个单词的长度]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/58.最后一个单词的长度) | 完成 | 简单 |
+| 0009 | [66.加一]([src/leetcode/](https://github.com/suoyuesmile/suo-blog/blob/master/src/leetcode/66.加一) | 完成 | 简单 |
 
 ### 前端开放研究点
 #### JavaScript
