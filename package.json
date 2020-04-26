@@ -1,0 +1,11 @@
+{
+  "name": "suo-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/suoyuesmile/suo-blog.git",
+  "author": "shaosuo <suoyuesmile@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^1.2.2"
+  }
+}
