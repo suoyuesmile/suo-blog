@@ -5,7 +5,12 @@
   "repository": "https://github.com/suoyuesmile/suo-blog.git",
   "author": "shaosuo <suoyuesmile@163.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsc --build tsconfig.json"
+  },
   "dependencies": {
-    "formidable": "^1.2.2"
+    "formidable": "^1.2.2",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
   }
 }
