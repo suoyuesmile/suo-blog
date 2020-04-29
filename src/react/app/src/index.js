@@ -8,7 +8,7 @@ const name = 'shaosuo'
 const numbers = [2, 2, 3, 4, 5]
 const nameVisiable = false
 function filterShao(str) {
-    return str.replace('shao', '')
+    return str.replace('shao', '');
 }
 
 // 函数组件 & 条件渲染 & 列表渲染
@@ -120,6 +120,100 @@ class EventHandles extends React.Component {
     }
 }
 
+// 状态提升
+function BoilingVerdict(props) {
+    if (props.celsius >= 100) {
+        return <p>水沸腾！</p>
+    }
+    return <p>水不会沸腾！</p>
+}
+
+const modeNames = {
+    c: 'Celsius',
+    f: 'Fahreheit'
+};
+class TemperatureInput extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            temperature: ''
+        }
+    }
+
+    handleChange = (e) => {
+        this.props.onTemperatureChange(e.target.value)
+    }
+    render() {
+        const temperature = this.props.temperature
+        const mode = this.props.mode
+        return <form>
+            <h2>{modeNames[mode]} 温度</h2>
+            <div className="form-item">
+                <label>水温：</label>
+                <input type="text" onChange={this.handleChange} value={temperature} />
+            </div>
+            {/* <BoilingVerdict celsius={this.state.temperature}></BoilingVerdict> */}
+        </form>
+    }
+}
+
+class Calculator extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            mode: '',
+            temperature: ''
+        }
+    }
+    handleCelChange = (temperature) => {
+        this.setState({
+            mode: 'c',
+            temperature: temperature
+        })
+    }
+    handleFahChange = (temperature) => {
+        this.setState({
+            mode: 'f',
+            temperature: temperature
+        })
+    }
+    render() {
+        const mode = this.state.mode;
+        const temperature = this.state.temperature;
+        const celsius = mode === 'f' ? tryConvert(temperature, toCelsius) : temperature;
+        const fahrenheit = mode === 'c' ? tryConvert(temperature, toFahrenheit) : temperature;
+        return <div>
+            <TemperatureInput
+                mode="c"
+                temperature={celsius}
+                onTemperatureChange={this.handleCelChange}
+                ></TemperatureInput>
+            <TemperatureInput
+                mode="f"
+                temperature={fahrenheit}
+                onTemperatureChange={this.handleFahchange}
+                ></TemperatureInput>
+        </div>
+    }
+}
+function toFahrenheit(fahrenheit) {
+    return (fahrenheit - 32) * 5 / 9;
+}
+
+function toCelsius(celsius) {
+    return celsius * 9 / 5 + 32;
+}
+
+function tryConvert(temperature, convert) {
+    const input = parseFloat(temperature);
+    if (Number.isNaN(input)) {
+        return '';
+    }
+    const output = convert(input);
+    const rounded = Math.round(output * 1000) / 1000;
+    return rounded;
+}
+
 // 组合组件
 function App() {
     return (
@@ -128,6 +222,7 @@ function App() {
             <FormDemo></FormDemo>
             <Clock></Clock>
             <EventHandles></EventHandles>
+            <Calculator></Calculator>
         </div>
     )
 }
