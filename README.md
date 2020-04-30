@@ -25,7 +25,7 @@
 | 0008 | [吃透移动端 H5 与 hybrid](articals/h5/0003.md)                                           | 完成 |
 | 0009 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《上》](articals/vue/0002.md)      | 完成 |
 | 0009 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《中》](https://juejin.im/post/5e15932ee51d4540f02fae27)      | 完成 |
-| 0009 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《上》]([articals/vue/0002.md](https://juejin.im/post/5e1eb1dff265da3e354ea2d0)      | 完成 |
+| 0009 | [吃透 Vue 项目开发实践｜16个方面深入前端工程化开发技巧《下》](https://juejin.im/post/5e1eb1dff265da3e354ea2d0)      | 完成 |
 | 0010 | [杭州前端面试通关新手入门指南](https://juejin.im/user/59a3e1de51882524401237cf)      | 完成 |
 
 
