@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import logo from './logo.svg'
+import logo from './images/logo.svg'
 import * as serviceWorker from './serviceWorker';
+import Hook from './hook';
 
 const name = 'shaosuo'
 const numbers = [2, 2, 3, 4, 5]
@@ -18,12 +19,12 @@ function CreatEl(props) {
         return <h1>{filterShao(name)} luck!</h1>
     }
     return (<div>
-            <h1>{props.name} ok</h1>
-            { props.name === 'shaosuo' && <span>very good!</span> }
-            { props.name === 'shaosuo' ? <span> very good!</span> : null}
-            { numbers.map((item, index) => (<li key={index}>{item}</li>)) }
-            <img src={logo} alt="123"></img>
-        </div>)
+        <h1>{props.name} ok</h1>
+        {props.name === 'shaosuo' && <span>very good!</span>}
+        {props.name === 'shaosuo' ? <span> very good!</span> : null}
+        {numbers.map((item, index) => (<li key={index}>{item}</li>))}
+        <img src={logo} alt="123"></img>
+    </div>)
 }
 
 // 类组件
@@ -79,14 +80,14 @@ class FormDemo extends React.Component {
         event.preventDefault();
     }
     render() {
-        const options = [{id: 1, name: 'apple'}, {id: 2, name: 'banana'}]
+        const options = [{ id: 1, name: 'apple' }, { id: 2, name: 'banana' }]
         return <form>
             <div className="form-item">
                 <label>name: </label>
-                <input type="text" value={this.state.name} onChange={this.handleNameChange}/>{this.state.name}
+                <input type="text" value={this.state.name} onChange={this.handleNameChange} />{this.state.name}
             </div>
             <div className="form-item">
-                <input type="submit"  onClick={this.handleSubmit}/>
+                <input type="submit" onClick={this.handleSubmit} />
             </div>
             <div className="form-item">
                 <select value={this.state.selected.id} onClick={this.handleSelectChange}>
@@ -121,6 +122,9 @@ class EventHandles extends React.Component {
 }
 
 // 状态提升
+// 共享状态提升到父组件
+// 自组件 input 中 props 来接管 state
+// 通过 props 将事件调用函数传递给自组件，分别处理改变
 function BoilingVerdict(props) {
     if (props.celsius >= 100) {
         return <p>水沸腾！</p>
@@ -152,7 +156,6 @@ class TemperatureInput extends React.Component {
                 <label>水温：</label>
                 <input type="text" onChange={this.handleChange} value={temperature} />
             </div>
-            {/* <BoilingVerdict celsius={this.state.temperature}></BoilingVerdict> */}
         </form>
     }
 }
@@ -187,12 +190,13 @@ class Calculator extends React.Component {
                 mode="c"
                 temperature={celsius}
                 onTemperatureChange={this.handleCelChange}
-                ></TemperatureInput>
+            />
             <TemperatureInput
                 mode="f"
                 temperature={fahrenheit}
-                onTemperatureChange={this.handleFahchange}
-                ></TemperatureInput>
+                onTemperatureChange={this.handleFahChange}
+            />
+            <BoilingVerdict celsius={celsius} />
         </div>
     }
 }
@@ -215,6 +219,90 @@ function tryConvert(temperature, convert) {
 }
 
 // 组合组件
+function Child() {
+    return <p>I am child!</p>
+}
+// 特例关系
+function ComposeCompontent() {
+    return <Child></Child>
+}
+// 包含关系
+function PropsComponent(props) {
+    return <div>
+        <span>good</span>
+        {props.child}
+    </div>
+}
+
+// 代码分割
+// 动态引入组件 渲染常规组件一样处理动态引入
+const LasyComponent = React.lazy(() => import('./LasyCompontent'));
+
+// context
+// todo Context.Consumer
+// todo 动态 Context
+// todo 在嵌套组件中更新 Context
+const ThemeContext = React.createContext('light');
+class Toolbar extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return <ThemeButton theme="light"></ThemeButton>
+    }
+}
+
+class ThemeButton extends React.Component {
+    render() {
+        return <Button></Button>
+    }
+}
+class Button extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+    static contextType = ThemeContext;
+    render() {
+        const themes = {
+            light: {
+                textColor: '#000',
+                bgColor: '#eee',
+            },
+            dark: {
+                textColor: '#eee',
+                bgColor: '#000',
+            }
+        };
+        const color = themes.hasOwnProperty(this.context) ? themes[this.context] : '';
+        return <div
+            style={
+                {
+                    width: '100px',
+                    lineHeigth: '24px',
+                    height: '24px',
+                    textAlign: 'center',
+                    color: color.textColor,
+                    backgroundColor: color.bgColor
+                }
+            }>button</div>
+    }
+}
+
+// 错误边界 ErrorBoundary
+class ErrorBoundary extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+
+    componentDidCatch(error, errorInfo) {
+        // todo
+        // LogErrorToMyService(error, errorInfo)
+    }
+    render() {
+        return <div>{this.props.data}</div>
+    }
+}
+
 function App() {
     return (
         <div>
@@ -223,6 +311,16 @@ function App() {
             <Clock></Clock>
             <EventHandles></EventHandles>
             <Calculator></Calculator>
+            <ComposeCompontent></ComposeCompontent>
+            <PropsComponent child={<Child />} />
+            <Suspense fallback={<div>loading...</div>}>
+                <LasyComponent />
+            </Suspense>
+            <ErrorBoundary></ErrorBoundary>
+            <ThemeContext.Provider value="dark">
+                <Toolbar></Toolbar>
+            </ThemeContext.Provider>
+            <Hook></Hook>
         </div>
     )
 }
@@ -230,7 +328,7 @@ function App() {
 
 ReactDOM.render(
     <App className="app"></App>,
-  document.getElementById('root')
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
