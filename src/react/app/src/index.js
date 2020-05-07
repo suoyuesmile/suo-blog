@@ -4,7 +4,7 @@ import './index.css';
 import logo from './images/logo.svg'
 import * as serviceWorker from './serviceWorker';
 import Hook from './hook';
-
+import Steps from './components/steps';
 const name = 'shaosuo'
 const numbers = [2, 2, 3, 4, 5]
 const nameVisiable = false
@@ -244,9 +244,9 @@ const LasyComponent = React.lazy(() => import('./LasyCompontent'));
 // todo 在嵌套组件中更新 Context
 const ThemeContext = React.createContext('light');
 class Toolbar extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
     render() {
         return <ThemeButton theme="light"></ThemeButton>
     }
@@ -258,9 +258,9 @@ class ThemeButton extends React.Component {
     }
 }
 class Button extends React.Component {
-    constructor(props) {
-        super(props)
-    }
+    // constructor(props) {
+    //     super(props)
+    // }
     static contextType = ThemeContext;
     render() {
         const themes = {
@@ -290,9 +290,9 @@ class Button extends React.Component {
 
 // 错误边界 ErrorBoundary
 class ErrorBoundary extends React.Component {
-    constructor(props) {
-        super(props)
-    }
+    // constructor(props) {
+    //     super(props)
+    // }
 
     componentDidCatch(error, errorInfo) {
         // todo
@@ -313,6 +313,7 @@ function App() {
             <Calculator></Calculator>
             <ComposeCompontent></ComposeCompontent>
             <PropsComponent child={<Child />} />
+            <Steps></Steps>
             <Suspense fallback={<div>loading...</div>}>
                 <LasyComponent />
             </Suspense>
