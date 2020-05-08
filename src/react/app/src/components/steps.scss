@@ -7,11 +7,16 @@
         height: 100%;
         &-index {
             float: left;
+            position: relative;
             margin-left: 10px;
+            width: 40px;
             height: 100%;
             border-radius: 50%;
             &-icon, &-icon--active {
-                margin-left: 10px;
+                position: absolute;
+                z-index: 1;
+                top: 6px;
+                left: 10px;
                 height: 7px;
                 width: 7px;
                 border-radius: 50%;
@@ -21,6 +26,8 @@
                 background-color: #888888;
             }
             &-line {
+                position: absolute;
+                top: 6px;
                 margin-left: 13px;
                 height: 60px;
                 width: 1px;
@@ -29,15 +36,18 @@
         }
         &-content {
             float: left;
-            margin-left: 20px;
+            position: relative;
+            margin-left: 50px;
             &-title {
                 color: #000000;
                 font-size: 14px;
             }
             &-description {
+                width: calc(100% - 50px);
+                height: 16px;
+                overflow: hidden;
                 font-size: 12px;
                 color: #888888;
-                width: 70%;
             }
             &-datetime {
                 margin-top: 7.5px;
