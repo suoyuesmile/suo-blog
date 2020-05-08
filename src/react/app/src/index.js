@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Link  } from 'react-router-dom';
 import './index.css';
 import logo from './images/logo.svg'
 import * as serviceWorker from './serviceWorker';
@@ -313,7 +314,6 @@ function App() {
             <Calculator></Calculator>
             <ComposeCompontent></ComposeCompontent>
             <PropsComponent child={<Child />} />
-            <Steps></Steps>
             <Suspense fallback={<div>loading...</div>}>
                 <LasyComponent />
             </Suspense>
@@ -328,7 +328,10 @@ function App() {
 // todo 高阶组件
 
 ReactDOM.render(
-    <App className="app"></App>,
+    (<Router>
+        <Route path="/" exact component={App} />
+        <Route path="/c/steps" component={Steps} />
+    </Router>),
     document.getElementById('root')
 );
 
