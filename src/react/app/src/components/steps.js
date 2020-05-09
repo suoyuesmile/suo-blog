@@ -3,12 +3,12 @@ import './steps.scss'
 const dataSource = [
     {
         title: '快递签收不成功',
-        description: '因收方客户拒收快递,待进一步处理',
+        description: '因收方客户拒收快递,待进一步处理额外任务而温热温热我认为儿惹我认为热舞但是发生地方',
         datetime: '2014-10-11 16:46'
     },
     {
         title: '快递签收不成功',
-        description: '因收方客户拒收快递,待进一步处理',
+        description: '因收方客户拒收快递,待进一步处理因收方客户拒收快递,待进一步处理额外任务而温热温热我认为儿惹我认为热舞但是发生地方因收方客户拒收快递,待进一步处理因收方客户拒收快递,待进一步处理额外任务而温热温热我认为儿惹我认为热舞但是发生地方',
         datetime: '2014-10-11 16:46'
     },
     {
@@ -42,7 +42,7 @@ const dataSource = [
         datetime: '2014-10-11 16:46'
     }
 ]
-const showMax = 4
+const showMax = 3
 export default class Steps extends React.Component {
     constructor(props) {
         super(props)
@@ -79,11 +79,8 @@ export default class Steps extends React.Component {
                 {
                     this.state.data.map((item, index, arr) => (
                         <div className="steps-item" key={index}>
-                            <div className="steps-item-index">
-                                <div className={index === 0 ? 'steps-item-index-icon--active' : 'steps-item-index-icon'}></div>
-                                {index - arr.length + 1 < 0 &&
-                                    <div className="steps-item-index-line"></div>}
-                            </div>
+                            <div className={index === 0 ? 'steps-item-icon--active' : 'steps-item-icon'}></div>
+                            { arr.length > index + 1 && <div className="steps-item-line"></div>}
                             <div className="steps-item-content">
                                 <div className="steps-item-content-title">{item.title}</div>
                                 <div className="steps-item-content-description">{item.description}</div>
