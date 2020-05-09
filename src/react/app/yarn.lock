@@ -1957,6 +1957,35 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
+antd-mobile@^2.3.1:
+  version "2.3.1"
+  resolved "http://registry.npm.chengfayun.net/antd-mobile/download/antd-mobile-2.3.1.tgz#04d8709c198eee27c3c41b903cb2ad77a16028e3"
+  integrity sha1-BNhwnBmO7ifDxBuQPLKtd6FgKOM=
+  dependencies:
+    array-tree-filter "~2.1.0"
+    babel-runtime "6.x"
+    classnames "^2.2.1"
+    normalize.css "^7.0.0"
+    rc-checkbox "~2.0.0"
+    rc-collapse "~1.9.1"
+    rc-slider "~8.2.0"
+    rc-swipeout "~2.0.0"
+    rmc-calendar "^1.0.0"
+    rmc-cascader "~5.0.0"
+    rmc-date-picker "^6.0.8"
+    rmc-dialog "^1.0.1"
+    rmc-drawer "^0.4.11"
+    rmc-feedback "^2.0.0"
+    rmc-input-number "^1.0.0"
+    rmc-list-view "^0.11.0"
+    rmc-notification "~1.0.0"
+    rmc-nuka-carousel "~3.0.0"
+    rmc-picker "~5.0.0"
+    rmc-pull-to-refresh "~1.0.1"
+    rmc-steps "~1.0.0"
+    rmc-tabs "~1.2.0"
+    rmc-tooltip "~1.0.0"
+
 antd@^4.2.0:
   version "4.2.0"
   resolved "http://registry.npm.chengfayun.net/antd/download/antd-4.2.0.tgz#1b6c9cb1d534b33e83a24052d9a7ccbaba19d138"
@@ -2108,7 +2137,7 @@ array-includes@^3.0.3, array-includes@^3.1.1:
     es-abstract "^1.17.0"
     is-string "^1.0.5"
 
-array-tree-filter@^2.1.0:
+array-tree-filter@2.1.x, array-tree-filter@^2.1.0, array-tree-filter@~2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.chengfayun.net/array-tree-filter/download/array-tree-filter-2.1.0.tgz#873ac00fec83749f255ac8dd083814b4f6329190"
   integrity sha1-hzrAD+yDdJ8lWsjdCDgUtPYykZA=
@@ -2143,7 +2172,7 @@ arrify@^1.0.1:
   resolved "http://registry.npm.chengfayun.net/arrify/download/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
 
-asap@~2.0.6:
+asap@~2.0.3, asap@~2.0.6:
   version "2.0.6"
   resolved "http://registry.npm.chengfayun.net/asap/download/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
@@ -2948,7 +2977,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.x, classnames@^2.2.0, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@~2.2.6:
+classnames@2.x, classnames@^2.2.0, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.4, classnames@^2.2.5, classnames@^2.2.6, classnames@~2.2.6:
   version "2.2.6"
   resolved "http://registry.npm.chengfayun.net/classnames/download/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha1-Q5Nb/90pHzJtrQogUwmzjQD2UM4=
@@ -3274,6 +3303,11 @@ core-js-pure@^3.0.0:
   resolved "http://registry.npm.chengfayun.net/core-js-pure/download/core-js-pure-3.6.5.tgz#c79e75f5e38dbc85a662d91eea52b8256d53b813"
   integrity sha1-x5519eONvIWmYtke6lK4JW1TuBM=
 
+core-js@^1.0.0:
+  version "1.2.7"
+  resolved "http://registry.npm.chengfayun.net/core-js/download/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
+  integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
+
 core-js@^2.4.0:
   version "2.6.11"
   resolved "http://registry.npm.chengfayun.net/core-js/download/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
@@ -3340,6 +3374,15 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     ripemd160 "^2.0.0"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+create-react-class@^15.6.0:
+  version "15.6.3"
+  resolved "http://registry.npm.chengfayun.net/create-react-class/download/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
+  integrity sha1-LXMjf7P5cK5uvgEanmb0bbyoADY=
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
 
 cross-spawn@7.0.1:
   version "7.0.1"
@@ -3874,7 +3917,7 @@ dom-accessibility-api@^0.3.0:
   resolved "http://registry.npm.chengfayun.net/dom-accessibility-api/download/dom-accessibility-api-0.3.0.tgz#511e5993dd673b97c87ea47dba0e3892f7e0c983"
   integrity sha1-UR5Zk91nO5fIfqR9ug44kvfgyYM=
 
-dom-align@^1.7.0:
+dom-align@1.x, dom-align@^1.7.0:
   version "1.11.1"
   resolved "http://registry.npm.chengfayun.net/dom-align/download/dom-align-1.11.1.tgz#7592be99a660a36cdedc1d6eeb22b8109d758cae"
   integrity sha1-dZK+maZgo2ze3B1u6yK4EJ11jK4=
@@ -4034,6 +4077,13 @@ encodeurl@~1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.chengfayun.net/encodeurl/download/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+
+encoding@^0.1.11:
+  version "0.1.12"
+  resolved "http://registry.npm.chengfayun.net/encoding/download/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
+  integrity sha1-U4tm8+5izRq1HsMjgp0flIDHS+s=
+  dependencies:
+    iconv-lite "~0.4.13"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.4"
@@ -4420,6 +4470,11 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
+exenv@^1.2.0:
+  version "1.2.2"
+  resolved "http://registry.npm.chengfayun.net/exenv/download/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
+
 exit@^0.1.2:
   version "0.1.2"
   resolved "http://registry.npm.chengfayun.net/exit/download/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
@@ -4593,6 +4648,19 @@ fb-watchman@^2.0.0:
   integrity sha1-/IT7OdJwnPP/bXQ3BhV7tXCKioU=
   dependencies:
     bser "2.1.1"
+
+fbjs@^0.8.3, fbjs@^0.8.9:
+  version "0.8.17"
+  resolved "http://registry.npm.chengfayun.net/fbjs/download/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
+  integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.18"
 
 figgy-pudding@^3.5.1:
   version "3.5.2"
@@ -5396,7 +5464,7 @@ https-browserify@^1.0.0:
   resolved "http://registry.npm.chengfayun.net/https-browserify/download/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24:
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@~0.4.13:
   version "0.4.24"
   resolved "http://registry.npm.chengfayun.net/iconv-lite/download/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
@@ -5889,7 +5957,7 @@ is-root@2.1.0:
   resolved "http://registry.npm.chengfayun.net/is-root/download/is-root-2.1.0.tgz#809e18129cf1129644302a4f8544035d51984a9c"
   integrity sha1-gJ4YEpzxEpZEMCpPhUQDXVGYSpw=
 
-is-stream@^1.1.0:
+is-stream@^1.0.1, is-stream@^1.1.0:
   version "1.1.0"
   resolved "http://registry.npm.chengfayun.net/is-stream/download/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
@@ -5964,6 +6032,14 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "http://registry.npm.chengfayun.net/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
+isomorphic-fetch@^2.1.1:
+  version "2.2.1"
+  resolved "http://registry.npm.chengfayun.net/isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
+  integrity sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  dependencies:
+    node-fetch "^1.0.1"
+    whatwg-fetch ">=0.10.0"
 
 isstream@~0.1.2:
   version "0.1.2"
@@ -7286,6 +7362,14 @@ no-case@^3.0.3:
     lower-case "^2.0.1"
     tslib "^1.10.0"
 
+node-fetch@^1.0.1:
+  version "1.7.3"
+  resolved "http://registry.npm.chengfayun.net/node-fetch/download/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  integrity sha1-mA9vcthSEaU0fGsrwYxbhMPrR+8=
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
+
 node-forge@0.9.0:
   version "0.9.0"
   resolved "http://registry.npm.chengfayun.net/node-forge/download/node-forge-0.9.0.tgz#d624050edbb44874adca12bb9a52ec63cb782579"
@@ -7435,6 +7519,11 @@ normalize-url@^3.0.0:
   version "3.3.0"
   resolved "http://registry.npm.chengfayun.net/normalize-url/download/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha1-suHE3E98bVd0PfczpPWXjRhlBVk=
+
+normalize.css@^7.0.0:
+  version "7.0.0"
+  resolved "http://registry.npm.chengfayun.net/normalize.css/download/normalize.css-7.0.0.tgz#abfb1dd82470674e0322b53ceb1aaf412938e4bf"
+  integrity sha1-q/sd2CRwZ04DIrU86xqvQSk45L8=
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -8825,6 +8914,13 @@ promise-inflight@^1.0.1:
   resolved "http://registry.npm.chengfayun.net/promise-inflight/download/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
+promise@^7.1.1:
+  version "7.3.1"
+  resolved "http://registry.npm.chengfayun.net/promise/download/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
+  integrity sha1-BktyYCsY+Q8pGSuLG8QY/9Hr078=
+  dependencies:
+    asap "~2.0.3"
+
 promise@^8.0.3:
   version "8.1.0"
   resolved "http://registry.npm.chengfayun.net/promise/download/promise-8.1.0.tgz#697c25c3dfe7435dd79fcd58c38a135888eaf05e"
@@ -8840,7 +8936,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@15.x, prop-types@^15.5.10, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.x, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "http://registry.npm.chengfayun.net/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -8962,7 +9058,7 @@ querystringify@^2.1.1:
   resolved "http://registry.npm.chengfayun.net/querystringify/download/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
   integrity sha1-YOWl/WSn+L+k0qsu1v30yFutFU4=
 
-raf@^3.4.0, raf@^3.4.1:
+raf@^3.1.0, raf@^3.3.2, raf@^3.4.0, raf@^3.4.1:
   version "3.4.1"
   resolved "http://registry.npm.chengfayun.net/raf/download/raf-3.4.1.tgz#0742e99a4a6552f445d73e3ee0328af0ff1ede39"
   integrity sha1-B0LpmkplUvRF1z4+4DKK8P8e3jk=
@@ -8999,6 +9095,16 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+rc-align@^2.4.0:
+  version "2.4.5"
+  resolved "http://registry.npm.chengfayun.net/rc-align/download/rc-align-2.4.5.tgz#c941a586f59d1017f23a428f0b468663fb7102ab"
+  integrity sha1-yUGlhvWdEBfyOkKPC0aGY/txAqs=
+  dependencies:
+    babel-runtime "^6.26.0"
+    dom-align "^1.7.0"
+    prop-types "^15.5.8"
+    rc-util "^4.0.4"
+
 rc-align@^3.0.0-rc.0:
   version "3.0.0"
   resolved "http://registry.npm.chengfayun.net/rc-align/download/rc-align-3.0.0.tgz#5b0510aaa12dfef7b8d79877d39e43de5ef831bc"
@@ -9009,7 +9115,7 @@ rc-align@^3.0.0-rc.0:
     rc-util "^4.12.0"
     resize-observer-polyfill "^1.5.1"
 
-rc-animate@2.x, rc-animate@^2.10.0, rc-animate@^2.10.1, rc-animate@^2.10.2, rc-animate@^2.9.2, rc-animate@~2.11.0:
+rc-animate@2.x, rc-animate@^2.10.0, rc-animate@^2.10.1, rc-animate@^2.10.2, rc-animate@^2.4.4, rc-animate@^2.9.2, rc-animate@~2.11.0:
   version "2.11.1"
   resolved "http://registry.npm.chengfayun.net/rc-animate/download/rc-animate-2.11.1.tgz#2666eeb6f1f2a495a13b2af09e236712278fdb2c"
   integrity sha1-JmbutvHypJWhOyrwniNnEieP2yw=
@@ -9042,6 +9148,16 @@ rc-cascader@~1.0.0:
     rc-util "^4.0.4"
     warning "^4.0.1"
 
+rc-checkbox@~2.0.0:
+  version "2.0.3"
+  resolved "http://registry.npm.chengfayun.net/rc-checkbox/download/rc-checkbox-2.0.3.tgz#436a9d508948e224980f0535ea738b48177a8f25"
+  integrity sha1-Q2qdUIlI4iSYDwU16nOLSBd6jyU=
+  dependencies:
+    babel-runtime "^6.23.0"
+    classnames "2.x"
+    prop-types "15.x"
+    rc-util "^4.0.4"
+
 rc-checkbox@~2.2.0:
   version "2.2.0"
   resolved "http://registry.npm.chengfayun.net/rc-checkbox/download/rc-checkbox-2.2.0.tgz#a0ce95c34f05e0eb882664174518cd4baa36dce9"
@@ -9062,6 +9178,16 @@ rc-collapse@~1.11.3:
     react-is "^16.7.0"
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
+
+rc-collapse@~1.9.1:
+  version "1.9.3"
+  resolved "http://registry.npm.chengfayun.net/rc-collapse/download/rc-collapse-1.9.3.tgz#d9741db06a823353e1fd1aec3ba4c0f9d8af4b26"
+  integrity sha1-2XQdsGqCM1Ph/RrsO6TA+divSyY=
+  dependencies:
+    classnames "2.x"
+    css-animation "1.x"
+    prop-types "^15.5.6"
+    rc-animate "2.x"
 
 rc-dialog@~7.6.0:
   version "7.6.1"
@@ -9098,6 +9224,13 @@ rc-field-form@~1.2.0:
     "@babel/runtime" "^7.8.4"
     async-validator "^3.0.3"
     rc-util "^4.20.3"
+
+rc-gesture@~0.0.18, rc-gesture@~0.0.22:
+  version "0.0.22"
+  resolved "http://registry.npm.chengfayun.net/rc-gesture/download/rc-gesture-0.0.22.tgz#fbcbdd5b46387a978b3ede48b42748e8ff77dddd"
+  integrity sha1-+8vdW0Y4epeLPt5ItCdI6P933d0=
+  dependencies:
+    babel-runtime "6.x"
 
 rc-hammerjs@~0.6.0:
   version "0.6.9"
@@ -9231,6 +9364,19 @@ rc-select@~10.2.0:
     rc-virtual-list "^1.1.2"
     warning "^4.0.3"
 
+rc-slider@~8.2.0:
+  version "8.2.0"
+  resolved "http://registry.npm.chengfayun.net/rc-slider/download/rc-slider-8.2.0.tgz#ae37d17144cad60e1da6eac0ee4ffcfea0b0a6e8"
+  integrity sha1-rjfRcUTK1g4dpurA7k/8/qCwpug=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.5"
+    prop-types "^15.5.4"
+    rc-tooltip "^3.4.2"
+    rc-util "^4.0.4"
+    shallowequal "^1.0.1"
+    warning "^3.0.0"
+
 rc-slider@~9.2.3:
   version "9.2.4"
   resolved "http://registry.npm.chengfayun.net/rc-slider/download/rc-slider-9.2.4.tgz#92e2b58c53def9921ae0fc2822727ab5785b9ed0"
@@ -9252,6 +9398,16 @@ rc-steps@~3.5.0:
     classnames "^2.2.3"
     lodash "^4.17.5"
     prop-types "^15.5.7"
+
+rc-swipeout@~2.0.0:
+  version "2.0.11"
+  resolved "http://registry.npm.chengfayun.net/rc-swipeout/download/rc-swipeout-2.0.11.tgz#dfad9c7b38a15ea0376e39cb3356e36fed7a4155"
+  integrity sha1-362cezihXqA3bjnLM1bjb+16QVU=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "2.x"
+    rc-gesture "~0.0.22"
+    react-native-swipeout "^2.2.2"
 
 rc-switch@~1.9.0:
   version "1.9.0"
@@ -9283,6 +9439,15 @@ rc-tabs@~10.1.1:
     rc-hammerjs "~0.6.0"
     resize-observer-polyfill "^1.5.1"
     warning "^4.0.3"
+
+rc-tooltip@^3.4.2:
+  version "3.7.3"
+  resolved "http://registry.npm.chengfayun.net/rc-tooltip/download/rc-tooltip-3.7.3.tgz#280aec6afcaa44e8dff0480fbaff9e87fc00aecc"
+  integrity sha1-KArsavyqROjf8EgPuv+eh/wArsw=
+  dependencies:
+    babel-runtime "6.x"
+    prop-types "^15.5.8"
+    rc-trigger "^2.2.2"
 
 rc-tooltip@^4.0.0, rc-tooltip@~4.0.2:
   version "4.0.3"
@@ -9323,6 +9488,19 @@ rc-tree@~3.1.0:
     rc-virtual-list "^1.1.0"
     react-lifecycles-compat "^3.0.4"
 
+rc-trigger@^2.2.2:
+  version "2.6.5"
+  resolved "http://registry.npm.chengfayun.net/rc-trigger/download/rc-trigger-2.6.5.tgz#140a857cf28bd0fa01b9aecb1e26a50a700e9885"
+  integrity sha1-FAqFfPKL0PoBua7LHialCnAOmIU=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.6"
+    prop-types "15.x"
+    rc-align "^2.4.0"
+    rc-animate "2.x"
+    rc-util "^4.4.0"
+    react-lifecycles-compat "^3.0.4"
+
 rc-trigger@^4.0.0:
   version "4.1.0"
   resolved "http://registry.npm.chengfayun.net/rc-trigger/download/rc-trigger-4.1.0.tgz#6b13a41161716d6353e6324a01055efacb07cf71"
@@ -9354,7 +9532,7 @@ rc-upload@~3.0.4:
     babel-runtime "6.x"
     classnames "^2.2.5"
 
-rc-util@^4.0.4, rc-util@^4.11.0, rc-util@^4.12.0, rc-util@^4.13.0, rc-util@^4.14.0, rc-util@^4.15.3, rc-util@^4.16.1, rc-util@^4.17.0, rc-util@^4.20.0, rc-util@^4.20.1, rc-util@^4.20.3, rc-util@^4.5.1, rc-util@^4.6.0, rc-util@^4.8.0, rc-util@^4.9.0:
+rc-util@4.x, rc-util@^4.0.4, rc-util@^4.11.0, rc-util@^4.12.0, rc-util@^4.13.0, rc-util@^4.14.0, rc-util@^4.15.3, rc-util@^4.16.1, rc-util@^4.17.0, rc-util@^4.20.0, rc-util@^4.20.1, rc-util@^4.20.3, rc-util@^4.4.0, rc-util@^4.5.1, rc-util@^4.6.0, rc-util@^4.8.0, rc-util@^4.9.0:
   version "4.20.5"
   resolved "http://registry.npm.chengfayun.net/rc-util/download/rc-util-4.20.5.tgz#f7c77569e971ae6a8ad56f899cadd22275398325"
   integrity sha1-98d1aelxrmqK1W+JnK3SInU5gyU=
@@ -9440,6 +9618,15 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "http://registry.npm.chengfayun.net/react-lifecycles-compat/download/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha1-TxonOv38jzSIqMUWv9p4+HI1I2I=
+
+react-native-swipeout@^2.2.2:
+  version "2.3.6"
+  resolved "http://registry.npm.chengfayun.net/react-native-swipeout/download/react-native-swipeout-2.3.6.tgz#47dac8a835825cf3f2eef9e495574a3d9ab6d3fa"
+  integrity sha1-R9rIqDWCXPPy7vnklVdKPZq20/o=
+  dependencies:
+    create-react-class "^15.6.0"
+    prop-types "^15.5.10"
+    react-tween-state "^0.1.5"
 
 react-router-dom@^5.1.2:
   version "5.1.2"
@@ -9529,6 +9716,14 @@ react-scripts@3.4.1:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.1.2"
+
+react-tween-state@^0.1.5:
+  version "0.1.5"
+  resolved "http://registry.npm.chengfayun.net/react-tween-state/download/react-tween-state-0.1.5.tgz#e98b066551efb93cb92dd1be14995c2e3deae339"
+  integrity sha1-6YsGZVHvuTy5LdG+FJlcLj3q4zk=
+  dependencies:
+    raf "^3.1.0"
+    tween-functions "^1.0.1"
 
 react@^16.13.1:
   version "16.13.1"
@@ -9973,6 +10168,158 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
+rmc-align@~1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.chengfayun.net/rmc-align/download/rmc-align-1.0.0.tgz#8d64ab484609a041ab424506012a15b7c5b933dd"
+  integrity sha1-jWSrSEYJoEGrQkUGASoVt8W5M90=
+  dependencies:
+    babel-runtime "6.x"
+    dom-align "1.x"
+    rc-util "4.x"
+
+rmc-calendar@^1.0.0:
+  version "1.1.4"
+  resolved "http://registry.npm.chengfayun.net/rmc-calendar/download/rmc-calendar-1.1.4.tgz#7db4990087877cd49a7772f4524d33b8016d3bd2"
+  integrity sha1-fbSZAIeHfNSad3L0Uk0zuAFtO9I=
+  dependencies:
+    babel-runtime "^6.26.0"
+    rc-animate "^2.4.4"
+    rmc-date-picker "^6.0.8"
+
+rmc-cascader@~5.0.0:
+  version "5.0.3"
+  resolved "http://registry.npm.chengfayun.net/rmc-cascader/download/rmc-cascader-5.0.3.tgz#c605b1eac6613e4c54aa6aed2cbae7f9c5a8c65f"
+  integrity sha1-xgWx6sZhPkxUqmrtLLrn+cWoxl8=
+  dependencies:
+    array-tree-filter "2.1.x"
+    babel-runtime "6.x"
+    rmc-picker "~5.0.0"
+
+rmc-date-picker@^6.0.8:
+  version "6.0.10"
+  resolved "http://registry.npm.chengfayun.net/rmc-date-picker/download/rmc-date-picker-6.0.10.tgz#34dc7dfd424248be2d43527421576247c31583f6"
+  integrity sha1-NNx9/UJCSL4tQ1J0IVdiR8MVg/Y=
+  dependencies:
+    babel-runtime "6.x"
+    rmc-picker "~5.0.0"
+
+rmc-dialog@^1.0.1, rmc-dialog@^1.1.1:
+  version "1.1.1"
+  resolved "http://registry.npm.chengfayun.net/rmc-dialog/download/rmc-dialog-1.1.1.tgz#1d7fbc6b2cad5b0b53fbab71fe29636d76f78217"
+  integrity sha1-HX+8ayytWwtT+6tx/iljbXb3ghc=
+  dependencies:
+    babel-runtime "6.x"
+    rc-animate "2.x"
+
+rmc-drawer@^0.4.11:
+  version "0.4.11"
+  resolved "http://registry.npm.chengfayun.net/rmc-drawer/download/rmc-drawer-0.4.11.tgz#9a8c6125a4ccd37b916f32f7e8b477d11d413ee3"
+  integrity sha1-moxhJaTM03uRbzL36LR30R1BPuM=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.4"
+    prop-types "^15.5.10"
+
+rmc-feedback@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.chengfayun.net/rmc-feedback/download/rmc-feedback-2.0.0.tgz#cbc6cb3ae63c7a635eef0e25e4fbaf5ac366eeaa"
+  integrity sha1-y8bLOuY8emNe7w4l5PuvWsNm7qo=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.5"
+
+rmc-input-number@^1.0.0:
+  version "1.0.5"
+  resolved "http://registry.npm.chengfayun.net/rmc-input-number/download/rmc-input-number-1.0.5.tgz#42e02a27b0c3c366be9ff0ce19d818b71e406f8f"
+  integrity sha1-QuAqJ7DDw2a+n/DOGdgYtx5Ab48=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.0"
+    rmc-feedback "^2.0.0"
+
+rmc-list-view@^0.11.0:
+  version "0.11.5"
+  resolved "http://registry.npm.chengfayun.net/rmc-list-view/download/rmc-list-view-0.11.5.tgz#8e152a5dbec6aec45a8ccd1f33cb8ef140b93a1e"
+  integrity sha1-jhUqXb7GrsRajM0fM8uO8UC5Oh4=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.5"
+    fbjs "^0.8.3"
+    prop-types "^15.5.8"
+    warning "^3.0.0"
+    zscroller "~0.4.0"
+
+rmc-notification@~1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.chengfayun.net/rmc-notification/download/rmc-notification-1.0.0.tgz#1fcee98f99b9733f7ce63a91d7663a578743d075"
+  integrity sha1-H87pj5m5cz985jqR12Y6V4dD0HU=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "2.x"
+    prop-types "^15.5.8"
+    rc-animate "2.x"
+    rc-util "^4.0.4"
+
+rmc-nuka-carousel@~3.0.0:
+  version "3.0.1"
+  resolved "http://registry.npm.chengfayun.net/rmc-nuka-carousel/download/rmc-nuka-carousel-3.0.1.tgz#a2a997676b0f986354976dac39ec66d8701b4b71"
+  integrity sha1-oqmXZ2sPmGNUl22sOexm2HAbS3E=
+  dependencies:
+    exenv "^1.2.0"
+    raf "^3.3.2"
+
+rmc-picker@~5.0.0:
+  version "5.0.10"
+  resolved "http://registry.npm.chengfayun.net/rmc-picker/download/rmc-picker-5.0.10.tgz#9ca0acf45ad2c8afe9015a103a898436d825e18f"
+  integrity sha1-nKCs9FrSyK/pAVoQOomENtgl4Y8=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.6"
+    rmc-dialog "^1.1.1"
+    rmc-feedback "^2.0.0"
+
+rmc-pull-to-refresh@~1.0.1:
+  version "1.0.12"
+  resolved "http://registry.npm.chengfayun.net/rmc-pull-to-refresh/download/rmc-pull-to-refresh-1.0.12.tgz#607fd727a180b6f92c5e05a1ba192e0fe7c26421"
+  integrity sha1-YH/XJ6GAtvksXgWhuhkuD+fCZCE=
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.5"
+
+rmc-steps@~1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.chengfayun.net/rmc-steps/download/rmc-steps-1.0.0.tgz#0c50d0dff9d3e72e101914300a781993552dc526"
+  integrity sha1-DFDQ3/nT5y4QGRQwCngZk1UtxSY=
+  dependencies:
+    babel-runtime "^6.23.0"
+    classnames "^2.2.3"
+
+rmc-tabs@~1.2.0:
+  version "1.2.29"
+  resolved "http://registry.npm.chengfayun.net/rmc-tabs/download/rmc-tabs-1.2.29.tgz#dd2191525debbf8521e85aeb6d97670f652e4c83"
+  integrity sha1-3SGRUl3rv4Uh6FrrbZdnD2UuTIM=
+  dependencies:
+    babel-runtime "6.x"
+    rc-gesture "~0.0.18"
+
+rmc-tooltip@~1.0.0:
+  version "1.0.1"
+  resolved "http://registry.npm.chengfayun.net/rmc-tooltip/download/rmc-tooltip-1.0.1.tgz#5af16a3e8f764fa26d2b11932975bd88b1d848d2"
+  integrity sha1-WvFqPo92T6JtKxGTKXW9iLHYSNI=
+  dependencies:
+    babel-runtime "6.x"
+    rmc-trigger "1.x"
+
+rmc-trigger@1.x:
+  version "1.0.12"
+  resolved "http://registry.npm.chengfayun.net/rmc-trigger/download/rmc-trigger-1.0.12.tgz#34df10a16f1fc8f9e8b14d13d58cabe294ab7488"
+  integrity sha1-NN8QoW8fyPnosU0T1Yyr4pSrdIg=
+  dependencies:
+    babel-runtime "6.x"
+    rc-animate "2.x"
+    rc-util "4.x"
+    rmc-align "~1.0.0"
+
 rsvp@^4.8.4:
   version "4.8.5"
   resolved "http://registry.npm.chengfayun.net/rsvp/download/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
@@ -10206,7 +10553,7 @@ set-value@^2.0.0, set-value@^2.0.1:
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
 
-setimmediate@^1.0.4:
+setimmediate@^1.0.4, setimmediate@^1.0.5:
   version "1.0.5"
   resolved "http://registry.npm.chengfayun.net/setimmediate/download/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
   integrity sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
@@ -10246,7 +10593,7 @@ shallow-clone@^3.0.0:
   dependencies:
     kind-of "^6.0.2"
 
-shallowequal@^1.0.2, shallowequal@^1.1.0:
+shallowequal@^1.0.1, shallowequal@^1.0.2, shallowequal@^1.1.0:
   version "1.1.0"
   resolved "http://registry.npm.chengfayun.net/shallowequal/download/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
   integrity sha1-GI1SHelbkIdAT9TctosT3wrk5/g=
@@ -11122,6 +11469,11 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
+tween-functions@^1.0.1:
+  version "1.2.0"
+  resolved "http://registry.npm.chengfayun.net/tween-functions/download/tween-functions-1.2.0.tgz#1ae3a50e7c60bb3def774eac707acbca73bbc3ff"
+  integrity sha1-GuOlDnxguz3vd06scHrLynO7w/8=
+
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "http://registry.npm.chengfayun.net/tweetnacl/download/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
@@ -11166,6 +11518,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "http://registry.npm.chengfayun.net/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+ua-parser-js@^0.7.18:
+  version "0.7.21"
+  resolved "http://registry.npm.chengfayun.net/ua-parser-js/download/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
+  integrity sha1-hTz5zpP2QvZxdCc8w0Vlrm8wh3c=
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
@@ -11416,6 +11773,13 @@ walker@^1.0.7, walker@~1.0.5:
   dependencies:
     makeerror "1.0.x"
 
+warning@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.chengfayun.net/warning/download/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  integrity sha1-MuU3fLVy3kqwR1O9+IIcAe1gW3w=
+  dependencies:
+    loose-envify "^1.0.0"
+
 warning@^4.0.1, warning@^4.0.3, warning@~4.0.3:
   version "4.0.3"
   resolved "http://registry.npm.chengfayun.net/warning/download/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
@@ -11570,7 +11934,7 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   dependencies:
     iconv-lite "0.4.24"
 
-whatwg-fetch@^3.0.0:
+whatwg-fetch@>=0.10.0, whatwg-fetch@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.chengfayun.net/whatwg-fetch/download/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
   integrity sha1-/IBORYzEYACbGiuWa8iBfSV4rvs=
@@ -11928,3 +12292,10 @@ yargs@^13.3.0, yargs@^13.3.2:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
+
+zscroller@~0.4.0:
+  version "0.4.8"
+  resolved "http://registry.npm.chengfayun.net/zscroller/download/zscroller-0.4.8.tgz#69eed68690808eedf81f9714014356b36cdd20f4"
+  integrity sha1-ae7WhpCAju34H5cUAUNWs2zdIPQ=
+  dependencies:
+    babel-runtime "6.x"
