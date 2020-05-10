@@ -1,0 +1,13 @@
+.menu {
+    width: 370px;
+    overflow: hidden;
+    &__item {
+        color: #000;
+        padding: 8px;
+        display: inline-block;
+        height: 24px;
+        line-height: 24px;
+        // width: 100px;
+        list-style: none;
+    }
+}
