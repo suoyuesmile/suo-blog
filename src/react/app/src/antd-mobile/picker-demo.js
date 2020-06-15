@@ -55,12 +55,13 @@ const district3 = [{
     value: '1'
 }]
 export default class AMPicker extends React.Component {
+
     render() {
         return <div style={{ margin: '15px' }}>
             12
             <Picker extra="请选择(可选)"
-                data={district3}
-                col={1}
+                data={district}
+                col={3}
             >
                 <List.Item arrow="horizontal">Multiple & cascader</List.Item>
             </Picker>

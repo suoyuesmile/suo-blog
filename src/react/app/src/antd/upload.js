@@ -1,9 +1,9 @@
 import React from 'react'
-import { ImagePicker } from 'antd-mobile'
+import { Upload } from 'antd'
 import ky from 'ky-universal';
 const forge = require('node-forge');
 
-export default class ImagePickerDemo extends React.Component {
+export default class UploadDemo extends React.Component {
     async onImageClick(files) {
         const FormData = require('form-data');
         const formData = new FormData();
@@ -33,10 +33,8 @@ export default class ImagePickerDemo extends React.Component {
     }
     render() {
         return (
-            <ImagePicker
-                length={1}
-                onChange={this.onImageClick}
-            ></ImagePicker>
+            <Upload
+            ></Upload>
         )
     }
 }

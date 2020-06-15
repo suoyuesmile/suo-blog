@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.2.0",
     "antd-mobile": "^2.3.1",
+    "ky-universal": "^0.7.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

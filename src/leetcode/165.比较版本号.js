@@ -71,6 +71,14 @@
  * @return {number}
  */
 var compareVersion = function(version1, version2) {
+    const verson1Arr = version1.split('.');
+    const verson2Arr = version2.split('.');
+    const length = verson1Arr.length > verson2Arr.length ? verson1Arr.length : verson2Arr.length;
+    for (let index = 0; index < length; index++) {
+        const item1 = verson1Arr[index];
+        const item2 = verson2Arr[index];
+        return item1 > 
+    }
     
 };
 // @lc code=end
