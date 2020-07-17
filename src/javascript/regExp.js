@@ -10,7 +10,7 @@
 
 const text = '09:00-19:00';
 
-const pattern = /^[0-2][0-9]\:[0-5][0-9]\-[0-2][0-9]\:[0-5][0-9]$/;
+const pattern = /^[0-2][0-9]:[0-5][0-9]-[0-2][0-9]:[0-5][0-9]$/;
 
 console.log(text.match(pattern));
 console.log(text.search(pattern));

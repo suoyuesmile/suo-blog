@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link  } from 'react-router-dom';
+import { HashRouter as Router, Route, Link  } from 'react-router-dom';
 import './index.scss';
 import App from '../paratice';
 import Steps from '../examples/steps-demo';
@@ -8,6 +8,8 @@ import AMSteps from '../antd-mobile/steps-demo';
 import AMImagePicker from '../antd-mobile/image-picker-demo';
 // import AMImagePicker from '../antd/image-picker-demo';
 import UploadDemo from '../antd/upload';
+import InputDemo from '../antd-mobile/input';
+import CountDown from '../components/count-down';
 import FontDemo from '../font/pingfangsc-demo';
 
 export default function RouterDOM() {
@@ -21,14 +23,18 @@ export default function RouterDOM() {
             <li className="menu__item"><Link to="/am/image-picker">image-picker 组件</Link></li>
             <li className="menu__item"><Link to="/am/upload">upload 组件</Link></li>
             <li className="menu__item"><Link to="/am/picker">picker 组件</Link></li>
+            <li className="menu__item"><Link to="/am/input">input 组件</Link></li>
+            <li className="menu__item"><Link to="/co/count-down">count-down组件</Link></li>
         </ul>
         
-        <Route path="/paratice" exact component={App} />
-        <Route path="/font" exact component={FontDemo} />
+        <Route path="/paratice" component={App} />
+        <Route path="/font" component={FontDemo} />
         <Route path="/co/steps" component={Steps} />
         <Route path="/co/steps-hooks" component={StepsHooks} />
+        <Route path="/co/count-down" component={CountDown} />
         <Route path="/am/steps" component={AMSteps} />
         <Route path="/am/image-picker" component={AMImagePicker} />
         <Route path="/am/upload" component={UploadDemo} />
+        <Route path="/am/input" component={InputDemo} />
     </Router>)
 }

@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import 'antd-mobile/dist/antd-mobile.css';
 ReactDOM.render(
-    <Router>
+    <Router history='hashHistory'>
         <Route path="/" exact component={RouterDOM}></Route>
     </Router>,
     document.getElementById('root')

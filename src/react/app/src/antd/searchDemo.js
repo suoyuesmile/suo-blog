@@ -1,7 +1,7 @@
 import React from 'react'
 import { Input } from 'antd'
 
-export default class ImagePickerDemo extends React.Component {
+export default function ImagePickerDemo() {
     onChange = () => {
         console.log()
     }
