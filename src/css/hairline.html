@@ -1,0 +1,83 @@
+<html>
+  <div class="demo origin">normal 1px</div>
+  <div class="demo hairline">hairline</div>
+  <div class="demo hairline-top">top hairline</div>
+  <div class="demo hairline-right">right hairline</div>
+  <div class="demo hairline-bottom">bottom hairline</div>
+  <div class="demo hairline-left">left hairline</div>
+</html>
+
+<style>
+  .demo {
+    margin: 200px auto;
+    height: 200px;
+    width: 200px;
+    background: #fff;
+    text-align: center;
+    line-height: 200px;
+    background: #eee;
+  }
+
+  .origin {
+    border: 1px solid blue;
+  }
+
+  .hairline,
+  .hairline-top,
+  .hairline-right,
+  .hairline-bottom,
+  .hairline-left {
+    position: relative;
+  }
+  .hairline::after {
+    content: ' ';
+    transform: scale(0.5);
+    position: absolute;
+    box-sizing: border-box;
+    left: -50%;
+    right: -50%;
+    top: -50%;
+    bottom: -50%;
+    border: 1px solid blue;
+  }
+  .hairline-top::after {
+    content: ' ';
+    position: absolute;
+    transform: scaleY(0.5);
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-top: 1px solid blue;
+  }
+  .hairline-right::after {
+    content: ' ';
+    position: absolute;
+    transform: scaleX(0.5);
+    box-sizing: border-box;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-right: 1px solid blue;
+  }
+  .hairline-bottom::after {
+    content: ' ';
+    position: absolute;
+    transform: scaleY(0.5);
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid blue;
+  }
+  .hairline-left::after {
+    content: ' ';
+    position: absolute;
+    transform: scaleX(0.5);
+    box-sizing: border-box;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    border-left: 1px solid blue;
+  }
+</style>
