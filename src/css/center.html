@@ -1,0 +1,37 @@
+<html>
+  <div class="demo center1">水平居中1</div>
+  <div class="demo center2">水平居中2</div>
+  <div class="center3">
+    <div class="demo">水平居中3</div>
+  </div>
+</html>
+
+<style>
+  .demo {
+    margin-top: 200px;
+    width: 30%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: #ddd;
+  }
+
+  /* 方法一 */
+  .center1 {
+      margin-left:auto;
+      margin-right:auto;
+  }
+  /* 方法二 */
+  .center2 {
+      left:50%;
+      transform:translateX(-50%) ;
+     /* code */
+  }
+  /* 方法三 */
+  .center3 {
+      /* code */
+      display:flex;
+      align-items: center;
+      justify-content: center;
+  }
+</style>
