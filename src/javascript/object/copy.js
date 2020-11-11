@@ -6,6 +6,10 @@ const refer2 = {
   refer: refer1
 }
 
+const refer3 = function() {
+    console.log(1)
+}
+
 const origin = {
   a: 1,
   b: '1',
@@ -14,7 +18,8 @@ const origin = {
     e: 1
   },
   f: [1, 2],
-  g: refer2
+  g: refer2,
+  h: refer3
 }
 
 function shadowCopy(origin) {
@@ -28,6 +33,7 @@ function shadowCopy(origin) {
 function isObject(origin) {
   return origin !== null && typeof origin === 'object'
 }
+
 function deepCopy(origin, map = new Map()) {
   if (isObject(origin)) {
     let target = Array.isArray(origin) ? [] : {}
@@ -41,5 +47,10 @@ function deepCopy(origin, map = new Map()) {
   return origin
 }
 
-console.log('shadowCopy:', shadowCopy(origin))
-console.log('deepCopy:', deepCopy(origin))
+// console.log('shadowCopy1:', shadowCopy(origin));
+
+console.log(deepCopy(origin));
+
+console.log(Object.assign({}, origin));
+
+console.log(JSON.parse(JSON.stringify(origin)));
