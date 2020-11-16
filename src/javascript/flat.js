@@ -2,23 +2,28 @@
 
 const origin = [1, [2, 3], [4, [5, 6], [7, 8, 9]]]
 
-console.log(origin.flat(10))
 
 function flat(origin) {
-  let target = []
-  origin.forEach(item => {
-    target = Array.isArray(item)
-      ? target.concat(...arguments.callee(item))
-      : target.concat(item)
-  })
-  return target
+    let res = []
+    for (let i = 0; i < origin.length; i++) {
+        if (Array.isArray(origin[i])) {
+            res = res.concat(flat(origin[i]))
+        } else {
+            res.push(origin[i])
+        }
+    }
+    return res
 }
-console.log(flat(origin))
 
 function reduce_flat(origin) {
-  return origin.reduce((pre, cur) => {
-    return pre.concat(Array.isArray(cur) ? reduce_flat(cur) : cur)
-  }, [])
+    return origin.reduce((a, b) => {
+        if (Array.isArray(b)) {
+            return a.concat(reduce_flat(b))
+        } else {
+            return a.concat(b)
+        }
+    }, [])
 }
 
 console.log(reduce_flat(origin))
+console.log(flat(origin))
