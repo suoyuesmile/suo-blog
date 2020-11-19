@@ -30,11 +30,9 @@ function solve(s) {
             i = i - tmpSet.size;
             tmpSet.clear();
         }
-        
+
         i++;
     }
 
     return maxlen;
 }
-
-console.log(solve(' '));

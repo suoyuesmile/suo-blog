@@ -1,10 +1,10 @@
-function NodeList(val) {
-    this.val = val;
+const NodeList = function (val) {
+    this.val = val === undefined ? 0 : val;
     this.next = null;
 }
 
 // 头插法（新结点插在头部）
-function createByHead(nums) {
+const createByHead = function (nums) {
     let p = null;
     let head = new NodeList(null);
 
@@ -18,7 +18,7 @@ function createByHead(nums) {
 }
 
 // 尾插法（新结点插在尾部）
-function createByTail(nums) {
+const createByTail = function (nums) {
     let head = new NodeList(null);
     let p = head;
 
@@ -31,7 +31,7 @@ function createByTail(nums) {
 }
 
 // 重置为空
-function deleteAll(l1) {
+const deleteAll = function (l1) {
     let p = l1;
     while(p) {
         q = p;
@@ -40,11 +40,21 @@ function deleteAll(l1) {
     }
 }
 
-const l1 = createByHead([1, 3, 5, 6, 7]);
-const l2 = createByTail([1, 3, 5, 6, 7]);
-console.log(JSON.stringify(l1));
-console.log(JSON.stringify(l2));
-deleteAll(l1);
-console.log(JSON.stringify(l1));
+// const l1 = createByHead([1, 3, 5, 6, 7]);
+// const l2 = createByTail([1, 3, 5, 6, 7]);
+// console.log(JSON.stringify(l1));
+// console.log(JSON.stringify(l2));
+// deleteAll(l1);
+// console.log(JSON.stringify(l1));
+
+// exports.default = {
+//     NodeList,
+//     createByHead,
+//     createByTail,
+//     deleteAll
+// };
+
+exports.NodeList = NodeList;
+exports.createByTail = createByTail;
 
 
